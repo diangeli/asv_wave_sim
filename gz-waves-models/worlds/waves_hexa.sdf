@@ -113,6 +113,11 @@
     </include>
 
     <include>
+      <pose>0 0 2.1 0 0 0</pose>
+      <uri>model://Apriltag36_11_00011</uri>
+    </include>
+
+    <include>
       <uri>model://hexacopter_tarot680</uri>
       <pose degrees="true">0 0 3 0 0 0</pose>
     </include> 

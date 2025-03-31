@@ -16,7 +16,7 @@
         <technique sid="common">
           <lambert>
             <diffuse>
-              <texture texture="tag36_11_00003_png" texcoord="UVMap"/>
+              <texture texture="tag36_11_00011_png" texcoord="UVMap"/>
             </diffuse>
           </lambert>
         </technique>
@@ -42,8 +42,8 @@
     </effect>
   </library_effects>
   <library_images>
-    <image id="tag36_11_00003_png">
-      <init_from>tag36_11_00003.png</init_from>
+    <image id="tag36_11_00011_png">
+      <init_from>tag36_11_00011.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -101,7 +101,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="Plane" name="Plane" type="NODE">
-        <matrix sid="transform">0.5 0 0 0 0 0.5 0 0 0 0 1 0 0 0 0 1</matrix>
+        <matrix sid="transform">0.025 0 0 0 0 0.025 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#Plane_001-mesh" name="Plane">
           <bind_material>
             <technique_common>
