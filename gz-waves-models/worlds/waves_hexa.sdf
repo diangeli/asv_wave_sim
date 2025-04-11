@@ -104,7 +104,7 @@
 
     <include>
       <pose>0 0 0 0 0 0</pose>
-      <uri>model://wam-v</uri>
+      <uri>model://rm3_wec</uri>
     </include>
 
     <include>
